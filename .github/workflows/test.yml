@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+      - Develop
+      - Hexagonal_Arch
+
   pull_request:
     types: [opened, reopened, ready_for_review]
 
