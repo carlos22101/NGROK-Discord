@@ -14,12 +14,12 @@ import (
 )
 
 func main() {
-    // Cargar variables de entorno desde .env
+  
     if err := godotenv.Load(); err != nil {
-        log.Println("No se pudo cargar el archivo .env, utilizando variables de entorno del sistema.")
+        log.Println("No se pudo cargar el archivo .env")
     }
 
-    // Obtener las URLs de los webhooks desde las variables de entorno
+   
     webhookDev := os.Getenv("WEBHOOK_DEV")
     webhookTest := os.Getenv("WEBHOOK_TEST")
 

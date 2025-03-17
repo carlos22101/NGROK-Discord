@@ -3,8 +3,8 @@ package controllers
 import (
 	"log"
 	"net/http"
-	"webhook_multi/cmd/application/usecases"
-	"webhook_multi/cmd/domain/entities"
+	"webhook_multi/discord/application/usecases"
+	"webhook_multi/discord/domain/entities"
 
 	"github.com/gin-gonic/gin"
 )

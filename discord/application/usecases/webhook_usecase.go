@@ -2,8 +2,8 @@ package usecases
 
 import (
 	"fmt"
-	"webhook_multi/cmd/domain/entities"
-	"webhook_multi/cmd/infraestructure/adapters"
+	"webhook_multi/discord/domain/entities"
+	"webhook_multi/discord/infraestructure/adapters"
 )
 
 type WebhookUsecase struct {

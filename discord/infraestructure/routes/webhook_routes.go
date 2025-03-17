@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"webhook_multi/cmd/infraestructure/controllers"
+	"webhook_multi/discord/infraestructure/controllers"
 
 	"github.com/gin-gonic/gin"
 )
